@@ -20,10 +20,10 @@ def get_filters():
     valid_cities = ['chicago', 'new york city', 'washington']
     while True:
         city = input('Please insert a city you want to work with\n ').lower()
-        if city in valid_cities:
+        if city is invalid_cities:
             break
         else:
-            print('You inserted an invalid city\please in the valid city\n')
+            print('You inserted an invalid city\please insert the valid city\n')
 
     # get user input for month (all, january, february, ... , june)
     month_choice = input('Would you like to work with all months or a specific month?\nEnter yes for all and no for a specific month\n').lower()
